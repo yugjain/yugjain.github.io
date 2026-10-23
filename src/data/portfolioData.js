@@ -35,32 +35,32 @@ export const advisoryDossiers = {
     id: 'humanx',
     type: 'STRATEGIC ADVISORY DOSSIER',
     company: 'HumanX',
-    badge: 'ENTERPRISE GOVERNANCE',
-    headline: 'Cross-Disciplinary Squad Scoping, Delivery Cadences & Churn Early-Warning Systems',
-    clientPills: ['Digital Product Studio', 'Enterprise Delivery Squads', 'C-Suite Governance'],
+    badge: 'PRODUCT STUDIO • ENTERPRISE DELIVERY',
+    headline: 'End-to-End Sales Cycles, Executive Governance & Design-Dev Squad Orchestration',
+    clientPills: ['Bangalore Airport (BIAL)', 'Amazon SmartBiz', 'Seclore', 'Times Network', 'SBI MF — InvesTap NXT'],
     metrics: [
-      { label: 'Delivery Governance', value: 'Multi-Squad SLA' },
-      { label: 'Scope Creep Mitigation', value: 'Change-Order Rigor' },
-      { label: 'Health Visibility', value: 'Weekly RAG Telemetry' }
+      { label: 'Marquee Logos', value: 'BIAL • Amazon • SBI MF' },
+      { label: 'Sales & Retention', value: 'Target Exceeded' },
+      { label: 'Cross-Squad Flow', value: 'Design ↔ Dev SLA' }
     ],
     bottleneck:
-      'High-velocity product and engineering studios frequently suffer from the "silent delivery drift"—where technical squads hit sprint milestones on paper, but executive sponsors lose sight of commercial ROI, leading to scope friction and unbilled overruns.',
+      'High-velocity enterprise product studios require rigorous leadership across the entire commercial lifecycle: from sourcing Tier-1 institutional clients to scoping cross-disciplinary squads. Flagship accounts—such as Bangalore International Airport (BIAL), Amazon SmartBiz, and SBI Mutual Fund—demanded white-glove executive relationship management, zero-defect client communications, and seamless bridge-building between UX designers and backend engineers.',
     architecture: [
       {
-        title: 'Dual-Track Governance Architecture',
-        desc: 'Separated tactical sprint standups from bi-weekly Executive Steering Committees, ensuring client VPs remained focused on business milestones and change-order approvals.'
+        title: 'Full-Cycle Commercial & Account Leadership',
+        desc: 'Spearheaded the entire sales cycle from lead identification and C-suite discovery to contract onboarding and multi-year relationship retention, consistently meeting or exceeding revenue targets.'
       },
       {
-        title: 'Early-Warning Health Scoring Matrix',
-        desc: 'Implemented a multi-signal account health rubric tracking stakeholder sentiment, sprint velocity variance, and blocker resolution latency.'
+        title: 'Design ↔ Development Cross-Functional Bridge',
+        desc: 'Synthesized the complex operational requirements of flagship clients (e.g., SBI MF InvesTap NXT and BIAL passenger flows), eliminating friction between creative and engineering squads to ensure on-time delivery across concurrent high-priority initiatives.'
       },
       {
-        title: 'Commercial Change-Request Playbook',
-        desc: 'Trained delivery leads to identify out-of-scope architectural requests early and convert them into structured expansion SOWs rather than margin-eroding giveaways.'
+        title: 'Executive Governance, Communications & QA Rigor',
+        desc: 'Managed direct relationships with high-level client executives, proofread all client-facing strategic and technical deliverables to institutional standards, and implemented proactive satisfaction frameworks that elevated client happiness and long-term loyalty.'
       }
     ],
     outcome:
-      'Eliminated late-stage renewal surprises, stabilized squad utilization margins, and turned delivery check-ins into predictable commercial expansion conversations.'
+      'Secured and successfully delivered high-stakes digital product mandates for Bangalore Airport (BIAL), Amazon SmartBiz, Seclore, Times Network, and SBI Mutual Fund—accelerating time-to-market and sustaining elevated retention across Tier-1 enterprise accounts.'
   },
 
   zoftware: {

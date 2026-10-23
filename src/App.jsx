@@ -980,7 +980,7 @@ export default function App() {
                       STRATEGIC ADVISORY
                     </span>
                     <span className="bg-[#1C1F26] px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
-                      GOVERNANCE
+                      PRODUCT STUDIO • ENTERPRISE DELIVERY
                     </span>
                   </div>
 
@@ -1006,22 +1006,26 @@ export default function App() {
                   </div>
 
                   <h4 className="text-sm sm:text-base font-bold text-dark mb-2 sm:mb-4">
-                    Squad Scoping, Engagement Cadences & Health Scoring
+                    End-to-End Sales Cycles, Executive Governance & Cross-Squad Alignment
                   </h4>
 
                   <p className="text-xs sm:text-sm text-light-soft leading-relaxed mb-4 sm:mb-6">
-                    Structured post-sale client governance models, defining delivery milestone cadences and early-warning churn indicators across cross-disciplinary engineering squads.
+                    Led full-cycle sales from prospecting to contract onboarding and long-term retention. Bridged Design and Development squads to deliver mission-critical platforms for Bangalore Airport (BIAL), Amazon SmartBiz, SBI Mutual Fund, Seclore, and Times Network.
                   </p>
                 </div>
               </div>
 
               <div className="px-5 sm:px-8 pb-5 sm:pb-8 pt-0 border-t border-light-border/60">
                 <span className="text-[10px] sm:text-[11px] font-mono font-bold text-light-soft uppercase tracking-wider block mb-2.5 pt-3 sm:pt-4">
-                  Engagement Domain:
+                  Enterprise Clients & Flagship Mandates:
                 </span>
-                <span className="px-3 py-1 rounded-full bg-light-neutral border border-light-border text-xs font-bold text-dark inline-block">
-                  Digital Product Studio Governance
-                </span>
+                <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                  {['Bangalore Airport (BIAL)', 'Amazon SmartBiz', 'SBI MF (InvesTap NXT)', 'Seclore', 'Times Network'].map((logo) => (
+                    <span key={logo} className="px-2.5 sm:px-3 py-1 rounded-full bg-light-neutral border border-light-border text-xs font-bold text-dark">
+                      {logo}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
 
