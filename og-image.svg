@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#27272A" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0B0B0C" />
+  <rect width="1200" height="630" fill="url(#dots)" />
+  <rect x="40" y="40" width="1120" height="550" rx="28" fill="#121215" stroke="#27272A" stroke-width="2" />
+  
+  <!-- Top Pill -->
+  <rect x="90" y="95" width="460" height="42" rx="21" fill="#A3E635" />
+  <text x="320" y="122" text-anchor="middle" fill="#0B0B0C" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="15" letter-spacing="1.5">ENTERPRISE CLIENT PARTNER • $1M+ ARR</text>
+
+  <!-- Main Name -->
+  <text x="90" y="290" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="148" letter-spacing="-6">YUG JAIN</text>
+
+  <!-- Subtitle -->
+  <text x="90" y="365" fill="#A1A1AA" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="28" letter-spacing="-0.5">Scaling Global Enterprise SaaS, Salesforce &amp; MuleSoft Portfolios into Durable Revenue Engines.</text>
+
+  <!-- Bottom Metrics Row -->
+  <g transform="translate(90, 430)">
+    <rect x="0" y="0" width="280" height="100" rx="16" fill="#A3E635" />
+    <text x="28" y="52" fill="#0B0B0C" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="40" letter-spacing="-1.5">+30% ARR</text>
+    <text x="28" y="80" fill="#0B0B0C" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14">PORTFOLIO EXPANSION</text>
+
+    <rect x="305" y="0" width="280" height="100" rx="16" fill="#1C1C21" stroke="#27272A" stroke-width="2" />
+    <text x="333" y="52" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="40" letter-spacing="-1.5">80%+ GRR</text>
+    <text x="333" y="80" fill="#A1A1AA" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14">GROSS LOGO RETENTION</text>
+
+    <rect x="610" y="0" width="410" height="100" rx="16" fill="#FFFFFF" />
+    <text x="638" y="52" fill="#0B0B0C" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="36" letter-spacing="-1">US • UK • GLOBAL</text>
+    <text x="638" y="80" fill="#52525B" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14">NYC / SF / LONDON ENTERPRISE HOURS</text>
+  </g>
+</svg>
