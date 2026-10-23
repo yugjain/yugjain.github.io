@@ -916,7 +916,7 @@ export default function App() {
                       STRATEGIC ADVISORY
                     </span>
                     <span className="bg-[#1C1C21] px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
-                      SERIES B
+                      SERIES B • COMPLETED JAN 2026
                     </span>
                   </div>
 
@@ -946,7 +946,7 @@ export default function App() {
                   </h4>
 
                   <p className="text-xs sm:text-sm text-light-soft leading-relaxed mb-4 sm:mb-6">
-                    Advised leadership on structuring customer success operations for Tier-1 accounts. Automated product telemetry reporting to inform QBRs and synchronize enterprise customer needs with engineering roadmaps.
+                    Advised leadership on structuring customer success operations for Tier-1 accounts. Automated product telemetry reporting to inform QBRs and synchronize enterprise customer needs with engineering roadmaps (completed Jan 31, 2026).
                   </p>
                 </div>
               </div>
@@ -980,7 +980,7 @@ export default function App() {
                       STRATEGIC ADVISORY
                     </span>
                     <span className="bg-[#1C1F26] px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
-                      PRODUCT STUDIO • ENTERPRISE DELIVERY
+                      FEB 2023 — JUN 2023
                     </span>
                   </div>
 

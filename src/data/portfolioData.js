@@ -3,7 +3,7 @@ export const advisoryDossiers = {
     id: 'firework',
     type: 'STRATEGIC ADVISORY DOSSIER',
     company: 'Firework',
-    badge: 'VIDEO COMMERCE • SERIES B',
+    badge: 'VIDEO COMMERCE • COMPLETED MANDATE (JAN 31, 2026)',
     headline: 'Enterprise Adoption, Telemetry-Driven QBRs & Net Revenue Retention',
     clientPills: ['Samsung', 'Unilever', 'Titan', 'Bajaj Finserv'],
     metrics: [
@@ -28,14 +28,14 @@ export const advisoryDossiers = {
       }
     ],
     outcome:
-      'Established a repeatable enterprise governance cadence across flagship accounts, arming commercial leadership with real-time adoption proof points that protected baseline ARR and unlocked multi-brand regional rollouts.'
+      'Established a repeatable enterprise governance cadence across flagship accounts, arming commercial leadership with real-time adoption proof points that protected baseline ARR and unlocked multi-brand regional rollouts (mandate concluded Jan 31, 2026).'
   },
 
   humanx: {
     id: 'humanx',
     type: 'STRATEGIC ADVISORY DOSSIER',
     company: 'HumanX',
-    badge: 'PRODUCT STUDIO • ENTERPRISE DELIVERY',
+    badge: 'PRODUCT STUDIO • FEB 2023 — JUN 2023',
     headline: 'End-to-End Sales Cycles, Executive Governance & Design-Dev Squad Orchestration',
     clientPills: ['Bangalore Airport (BIAL)', 'Amazon SmartBiz', 'Seclore', 'Times Network', 'SBI MF — InvesTap NXT'],
     metrics: [
