@@ -300,3 +300,107 @@ export const executiveEndorsements = [
     metricPill: '50% Faster Time-to-Value'
   }
 ];
+
+export const marqueeEnterpriseLogos = [
+  { name: 'NTT DATA North America', category: 'Core Full-Time Anchor', detail: '$1M+ ARR US Book' },
+  { name: 'Samsung', category: 'Consumer Tech', detail: 'Video Commerce Advisory' },
+  { name: 'Unilever', category: 'Global FMCG', detail: 'Enterprise Adoption' },
+  { name: 'Amazon SmartBiz', category: 'Global Commerce', detail: 'Product Studio Mandate' },
+  { name: 'Bangalore Airport (BIAL)', category: 'Infrastructure', detail: 'Digital Passenger Flows' },
+  { name: 'WeWork', category: 'Real Estate Tech', detail: 'Enterprise Post-Sales' },
+  { name: 'Puma', category: 'Athletic Brands', detail: 'Operations & Success' },
+  { name: 'SBI Mutual Fund', category: 'FinTech / Asset Mgmt', detail: 'InvesTap NXT Delivery' },
+  { name: 'Seclore', category: 'Cybersecurity', detail: 'Enterprise Platform' },
+  { name: 'Titan Company', category: 'Luxury & Retail', detail: 'Adoption & Retention' }
+];
+
+export const dealAnatomyData = [
+  {
+    id: 'us-enterprise-expansion',
+    badge: 'SCENARIO 01 • US ENTERPRISE EXPANSION',
+    title: 'From MuleSoft & Salesforce Delivery Friction to +30% ARR Expansion',
+    company: 'NTT DATA North America',
+    portfolioContext: '$1M+ ARR US Portfolio • Fortune 500 & Financial Services',
+    riskTrigger:
+      'Complex cross-cloud dependencies between Salesforce Financial Services Cloud and MuleSoft APIs created delivery friction, threatening a high-six-figure enterprise renewal with client VPs.',
+    intervention:
+      'Instituted executive Steering Committees separating JIRA sprint noise from C-suite milestone gates; aligned enterprise architects and closed feedback loops with engineering squads.',
+    commercialLever:
+      'Repositioned tactical troubleshooting into a platform modernization roadmap, securing a multi-year Metascale extension and adjacent MuleSoft API change orders.',
+    outcome:
+      '+30% Net ARR Expansion, 100% on-time contract renewal, and baseline gross logo retention protected at 80%+ across multi-year mandates.',
+    metrics: [
+      { label: 'ARR Expansion', val: '+30%' },
+      { label: 'Contract Term', val: 'Multi-Year' },
+      { label: 'Gross Logo Retention', val: '80%+' }
+    ]
+  },
+  {
+    id: 'tier1-renewal-defense',
+    badge: 'SCENARIO 02 • MULTINATIONAL RENEWAL DEFENSE',
+    title: 'Telemetry-Backed Executive QBRs to Defend Multi-Brand Enterprise Renewals',
+    company: 'Firework (Strategic Advisory)',
+    portfolioContext: 'Tier-1 Accounts (Samsung, Unilever, Titan, Bajaj Finserv)',
+    riskTrigger:
+      'Marquee enterprise brands questioned ROI velocity ahead of renewal gates as previous reporting relied on static, backward-looking spreadsheet reviews.',
+    intervention:
+      'Engineered automated usage telemetry dashboards synthesizing video engagement, livestream conversion, and SDK latency directly into 3-page C-suite ROI briefs.',
+    commercialLever:
+      'Proved tangible GMV lift and dwell-time benchmarks directly to brand CMOs and digital leaders, turning defensive renewal calls into strategic multi-brand roadmap gates.',
+    outcome:
+      'Secured flagship enterprise renewals and established repeatable post-sales governance playbooks across consumer and financial conglomerates.',
+    metrics: [
+      { label: 'QBR Prep Time', val: '-65%' },
+      { label: 'Data Latency', val: 'Real-Time' },
+      { label: 'Renewal Alignment', val: 'C-Suite Locked' }
+    ]
+  },
+  {
+    id: 'onboarding-compression',
+    badge: 'SCENARIO 03 • 0-TO-1 ENTERPRISE ONBOARDING',
+    title: 'Compressing Enterprise Onboarding Cycles by 50% & Cutting OpEx by 30%',
+    company: 'Office Pulse & HumanX',
+    portfolioContext: '25+ Enterprise Accounts (BIAL Airport, Amazon, WeWork, Puma)',
+    riskTrigger:
+      'Siloed handoffs between sales discovery, UX design, and development squads caused onboarding cycles to drag past 90 days, delaying time-to-first-value.',
+    intervention:
+      'Engineered cross-functional design-to-engineering SLAs, unified onboarding milestones, and institutional-grade review cadences for all client-facing deliverables.',
+    commercialLever:
+      'Leveraged accelerated time-to-value as a commercial value-prop, securing early contract expansions and multi-location software deployments.',
+    outcome:
+      'Cut enterprise onboarding cycle time by 50% and drove a 30% reduction in recurring operating expenses across 25+ flagship accounts.',
+    metrics: [
+      { label: 'Time-to-Value', val: '-50% Days' },
+      { label: 'OpEx Savings', val: '-30%' },
+      { label: 'Accounts Scaled', val: '25+ Logos' }
+    ]
+  }
+];
+
+export const globalHiringSpec = {
+  targetRoles: [
+    'Enterprise Client Partner',
+    'Senior / Principal Customer Success Manager (Enterprise CSM)',
+    'Technical Account Manager (TAM)',
+    'Head / Director of Customer Success'
+  ],
+  remoteReadiness:
+    'Immediate turnkey onboarding as a cross-border contractor or EOR employee via Deel, Remote.com, Oyster, or direct US/UK/Irish entity invoicing.',
+  corridors: [
+    {
+      region: 'US Corridor (EST / PST)',
+      cities: 'New York • San Francisco • Boston • Austin • Remote',
+      hours: '8:00 AM – 1:00 PM EST live daily overlap + evening SteerCo availability',
+      experience: 'Currently managing US enterprise portfolios at NTT DATA North America daily.'
+    },
+    {
+      region: 'UK & Ireland Corridor (GMT / BST)',
+      cities: 'London • Dublin (EMEA SaaS HQ Hub) • UK/IE Remote',
+      hours: '8:30 AM – 5:00 PM GMT (100% full-day synchronous working overlap)',
+      experience: 'Zero timezone friction with London & Dublin SaaS headquarters (Salesforce, Stripe, HubSpot ecosystem).'
+    }
+  ],
+  relocation:
+    'Fully open to sponsored relocation for UK Skilled Worker Visa, Ireland Critical Skills Employment Permit (CSEP), US L-1/H-1B, or UAE Golden Visa.'
+};
+

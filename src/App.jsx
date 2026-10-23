@@ -337,7 +337,7 @@ export default function App() {
             </a>
             <span className="hidden md:inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#1C1C1F] text-[#A1A1AA] border border-[#27272A]">
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              NYC • LDN • BOM • GLOBAL REMOTE
+              NYC • LDN • DUB • GLOBAL REMOTE
             </span>
           </div>
 
@@ -480,7 +480,7 @@ export default function App() {
                 YUG JAIN
               </h1>
               <div className="mt-2.5 sm:mt-3 text-[10px] sm:text-xs font-bold font-mono tracking-widest uppercase text-light-soft">
-                GLOBAL ENTERPRISE CLIENT PARTNER & OPERATOR
+                ENTERPRISE CLIENT PARTNER • SENIOR CSM • TECHNICAL ACCOUNT MANAGER (TAM)
               </div>
             </div>
 
@@ -542,7 +542,7 @@ export default function App() {
                     <div className="text-[8px] sm:text-[9px] text-light-soft">{globalTimes.nyc.split(' ')[1]}</div>
                   </div>
                   <div className="p-1.5 sm:p-2 bg-white rounded-lg border border-light-border">
-                    <div className="text-[9px] sm:text-[10px] text-light-soft font-bold">LDN (GMT)</div>
+                    <div className="text-[9px] sm:text-[10px] text-light-soft font-bold">LDN/DUB (GMT)</div>
                     <div className="text-[11px] sm:text-xs font-bold text-dark mt-0.5">{globalTimes.ldn.split(' ')[0]}</div>
                     <div className="text-[8px] sm:text-[9px] text-light-soft">{globalTimes.ldn.split(' ')[1]}</div>
                   </div>
@@ -557,7 +557,7 @@ export default function App() {
                 <div className="pt-0.5">
                   <div className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-white border border-light-border text-[9px] sm:text-[10px] font-mono font-bold text-dark w-full leading-snug">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0 animate-ping" />
-                    <span>US & UK ENTERPRISE HOURS • OPEN TO US/UK RELOCATION & REMOTE</span>
+                    <span>US (EST) & UK/IE (GMT) LIVE OVERLAP • REMOTE & RELOCATION READY</span>
                   </div>
                 </div>
               </div>
@@ -566,24 +566,16 @@ export default function App() {
             {/* Right Column: Statement & CTAs */}
             <div className="lg:col-span-8">
               <div className="text-xl sm:text-3xl lg:text-4xl font-extrabold leading-[1.35] tracking-tight text-dark mb-5 sm:mb-6">
-                Hi! I’m{' '}
-                <span className="inline-flex items-center px-2.5 sm:px-3.5 py-0.5 rounded-full bg-light-neutral border border-light-border text-dark text-lg sm:text-2xl lg:text-3xl align-middle font-bold my-1">
-                  Yug Jain
-                </span>
-                , an{' '}
-                <span className="inline-flex items-center px-2.5 sm:px-3.5 py-0.5 rounded-full bg-accent text-accent-text font-black text-lg sm:text-2xl lg:text-3xl align-middle shadow-sm my-1">
+                Hi! I’m Yug Jain, an{' '}
+                <span className="inline-flex items-center px-3 sm:px-4 py-0.5 rounded-full bg-accent text-accent-text font-black text-lg sm:text-2xl lg:text-3xl align-middle shadow-sm my-1">
                   Enterprise Client Partner
                 </span>{' '}
-                scaling{' '}
-                <span className="inline-flex items-center px-2.5 sm:px-3.5 py-0.5 rounded-full bg-light-neutral border border-light-border text-dark text-lg sm:text-2xl lg:text-3xl align-middle font-bold my-1">
-                  $1M+ ARR Global SaaS
-                </span>{' '}
-                portfolios into durable revenue engines.
+                scaling $1M+ ARR global SaaS portfolios into durable revenue engines.
               </div>
 
               <p className="text-sm sm:text-lg text-light-soft leading-relaxed max-w-2xl mb-6 sm:mb-8">
                 8+ years leading post-sales governance, executive Steering Committees, and net revenue expansion across 
-                North American, UK, and global enterprise accounts—bridging commercial execution with engineering rigor.
+                North American, UK, Irish, and global enterprise accounts—bridging commercial execution with engineering rigor.
               </p>
 
               {/* Action Buttons Stack (Full Width on Mobile) */}
@@ -624,20 +616,32 @@ export default function App() {
 
 
       {/* ─────────────────────────────────────────────────────────────
-          TICKER MARQUEE DIVIDER STRIP 1 (#141415 Background)
+          ENTERPRISE CLIENTS & ECOSYSTEMS STRIP (#141415 Background)
       ─────────────────────────────────────────────────────────────── */}
-      <div className="bg-[#141415] py-3.5 sm:py-4 border-y border-[#27272A] overflow-hidden select-none">
-        <div className="marquee-track animate-marquee text-[11px] sm:text-xs font-mono font-bold tracking-widest text-accent uppercase">
-          <span className="mx-4 sm:mx-6">ENTERPRISE CLIENT PARTNER ✦</span>
-          <span className="mx-4 sm:mx-6">$1M+ ARR SALESFORCE & MULESOFT PORTFOLIO ✦</span>
-          <span className="mx-4 sm:mx-6">+30% ARR EXPANSION ✦</span>
-          <span className="mx-4 sm:mx-6">80%+ GROSS LOGO RETENTION ✦</span>
-          <span className="mx-4 sm:mx-6">STRATEGIC STARTUP ADVISORY ✦</span>
-          <span className="mx-4 sm:mx-6">US & UK ENTERPRISE HOURS • REMOTE CAPABLE ✦</span>
-          <span className="mx-4 sm:mx-6">ENTERPRISE CLIENT PARTNER ✦</span>
-          <span className="mx-4 sm:mx-6">$1M+ ARR SALESFORCE & MULESOFT PORTFOLIO ✦</span>
-          <span className="mx-4 sm:mx-6">+30% ARR EXPANSION ✦</span>
-          <span className="mx-4 sm:mx-6">80%+ GROSS LOGO RETENTION ✦</span>
+      <div className="bg-[#141415] py-4 sm:py-5 border-y border-[#27272A] overflow-hidden select-none">
+        <div className="marquee-track animate-marquee text-[11px] sm:text-xs font-mono font-bold tracking-widest uppercase">
+          <span className="mx-5 text-accent font-extrabold">ENTERPRISE FOOTPRINT ✦</span>
+          <span className="mx-5 text-white font-extrabold">NTT DATA NORTH AMERICA ($1M+ US BOOK) ✦</span>
+          <span className="mx-5 text-zinc-300">SAMSUNG ✦</span>
+          <span className="mx-5 text-zinc-300">UNILEVER ✦</span>
+          <span className="mx-5 text-zinc-300">AMAZON SMARTBIZ ✦</span>
+          <span className="mx-5 text-zinc-300">BANGALORE AIRPORT (BIAL) ✦</span>
+          <span className="mx-5 text-zinc-300">WEWORK ✦</span>
+          <span className="mx-5 text-zinc-300">PUMA ✦</span>
+          <span className="mx-5 text-zinc-300">SBI MUTUAL FUND ✦</span>
+          <span className="mx-5 text-zinc-300">SECLORE ✦</span>
+          <span className="mx-5 text-zinc-300">TITAN COMPANY ✦</span>
+          <span className="mx-5 text-accent font-extrabold">ENTERPRISE FOOTPRINT ✦</span>
+          <span className="mx-5 text-white font-extrabold">NTT DATA NORTH AMERICA ($1M+ US BOOK) ✦</span>
+          <span className="mx-5 text-zinc-300">SAMSUNG ✦</span>
+          <span className="mx-5 text-zinc-300">UNILEVER ✦</span>
+          <span className="mx-5 text-zinc-300">AMAZON SMARTBIZ ✦</span>
+          <span className="mx-5 text-zinc-300">BANGALORE AIRPORT (BIAL) ✦</span>
+          <span className="mx-5 text-zinc-300">WEWORK ✦</span>
+          <span className="mx-5 text-zinc-300">PUMA ✦</span>
+          <span className="mx-5 text-zinc-300">SBI MUTUAL FUND ✦</span>
+          <span className="mx-5 text-zinc-300">SECLORE ✦</span>
+          <span className="mx-5 text-zinc-300">TITAN COMPANY ✦</span>
         </div>
       </div>
 
@@ -910,21 +914,21 @@ export default function App() {
               className="bg-white border border-light-border rounded-2xl sm:rounded-3xl overflow-hidden hover:border-dark hover:shadow-2xl transition-all group flex flex-col justify-between cursor-pointer text-left"
             >
               <div>
-                <div className="h-[160px] sm:h-[200px] w-full bg-[#0F0F12] relative overflow-hidden p-4 sm:p-6 flex flex-col justify-between bg-dot-grid border-b border-white/5">
+                <div className="h-[110px] sm:h-[125px] w-full bg-[#0F0F12] relative overflow-hidden p-3.5 sm:p-4 flex flex-col justify-between bg-dot-grid border-b border-white/5">
                   <div className="flex items-center justify-between z-10">
-                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
+                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
                       STRATEGIC ADVISORY
                     </span>
-                    <span className="bg-[#1C1C21] px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
+                    <span className="bg-[#1C1C21] px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
                       SERIES B • COMPLETED JAN 2026
                     </span>
                   </div>
 
-                  <div className="flex items-center justify-center gap-2.5 sm:gap-3 my-auto z-10">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-[#FF0055] to-[#FF5500] flex items-center justify-center text-white shadow-lg">
-                      <Flame className="w-5 h-5 sm:w-6 sm:h-6 fill-current" />
+                  <div className="flex items-center justify-center gap-2.5 my-auto z-10">
+                    <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-tr from-[#FF0055] to-[#FF5500] flex items-center justify-center text-white shadow-md">
+                      <Flame className="w-4 h-4 sm:w-5 sm:h-5 fill-current" />
                     </div>
-                    <span className="text-xl sm:text-2xl font-black tracking-wider text-white">FIREWORK</span>
+                    <span className="text-lg sm:text-xl font-black tracking-wider text-white">FIREWORK</span>
                   </div>
 
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#FF0055]/15 rounded-full blur-3xl pointer-events-none" />
@@ -974,21 +978,21 @@ export default function App() {
               className="bg-white border border-light-border rounded-2xl sm:rounded-3xl overflow-hidden hover:border-dark hover:shadow-2xl transition-all group flex flex-col justify-between cursor-pointer text-left"
             >
               <div>
-                <div className="h-[160px] sm:h-[200px] w-full bg-[#101216] relative overflow-hidden p-4 sm:p-6 flex flex-col justify-between bg-dot-grid border-b border-white/5">
+                <div className="h-[110px] sm:h-[125px] w-full bg-[#101216] relative overflow-hidden p-3.5 sm:p-4 flex flex-col justify-between bg-dot-grid border-b border-white/5">
                   <div className="flex items-center justify-between z-10">
-                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
+                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
                       STRATEGIC ADVISORY
                     </span>
-                    <span className="bg-[#1C1F26] px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
+                    <span className="bg-[#1C1F26] px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
                       FEB 2023 — JUN 2023
                     </span>
                   </div>
 
-                  <div className="flex items-center justify-center gap-2.5 sm:gap-3 my-auto z-10">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-[#6366F1] to-[#3B82F6] flex items-center justify-center text-white shadow-lg font-black text-base sm:text-xl tracking-tighter">
+                  <div className="flex items-center justify-center gap-2.5 my-auto z-10">
+                    <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-tr from-[#6366F1] to-[#3B82F6] flex items-center justify-center text-white shadow-md font-black text-sm sm:text-base tracking-tighter">
                       HX
                     </div>
-                    <span className="text-xl sm:text-2xl font-black tracking-widest text-white">HUMANX</span>
+                    <span className="text-lg sm:text-xl font-black tracking-widest text-white">HUMANX</span>
                   </div>
 
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#6366F1]/15 rounded-full blur-3xl pointer-events-none" />
@@ -1038,21 +1042,21 @@ export default function App() {
               className="bg-white border border-light-border rounded-2xl sm:rounded-3xl overflow-hidden hover:border-dark hover:shadow-2xl transition-all group flex flex-col justify-between cursor-pointer text-left"
             >
               <div>
-                <div className="h-[160px] sm:h-[200px] w-full bg-[#0E1218] relative overflow-hidden p-4 sm:p-6 flex flex-col justify-between bg-dot-grid border-b border-white/5">
+                <div className="h-[110px] sm:h-[125px] w-full bg-[#0E1218] relative overflow-hidden p-3.5 sm:p-4 flex flex-col justify-between bg-dot-grid border-b border-white/5">
                   <div className="flex items-center justify-between z-10">
-                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
+                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
                       STRATEGIC ADVISORY
                     </span>
-                    <span className="bg-[#19222E] px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
+                    <span className="bg-[#19222E] px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
                       SAAS AGGREGATION
                     </span>
                   </div>
 
-                  <div className="flex items-center justify-center gap-2.5 sm:gap-3 my-auto z-10">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-[#0EA5E9] to-[#0284C7] flex items-center justify-center text-white shadow-lg">
-                      <Layers className="w-5 h-5" />
+                  <div className="flex items-center justify-center gap-2.5 my-auto z-10">
+                    <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-tr from-[#0EA5E9] to-[#0284C7] flex items-center justify-center text-white shadow-lg">
+                      <Layers className="w-4 h-4 sm:w-5 sm:h-5" />
                     </div>
-                    <span className="text-xl sm:text-2xl font-black tracking-wider text-white">ZOFTWARE</span>
+                    <span className="text-lg sm:text-xl font-black tracking-wider text-white">ZOFTWARE</span>
                   </div>
 
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#0EA5E9]/15 rounded-full blur-3xl pointer-events-none" />
@@ -1098,21 +1102,21 @@ export default function App() {
               className="bg-white border border-light-border rounded-2xl sm:rounded-3xl overflow-hidden hover:border-dark hover:shadow-2xl transition-all group flex flex-col justify-between cursor-pointer text-left"
             >
               <div>
-                <div className="h-[160px] sm:h-[200px] w-full bg-[#141210] relative overflow-hidden p-4 sm:p-6 flex flex-col justify-between bg-dot-grid border-b border-white/5">
+                <div className="h-[110px] sm:h-[125px] w-full bg-[#141210] relative overflow-hidden p-3.5 sm:p-4 flex flex-col justify-between bg-dot-grid border-b border-white/5">
                   <div className="flex items-center justify-between z-10">
-                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
+                    <span className="bg-white/10 backdrop-blur-md px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-white/90 border border-white/10">
                       STRATEGIC ADVISORY
                     </span>
-                    <span className="bg-[#241F1A] px-2.5 sm:px-3 py-1 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
+                    <span className="bg-[#241F1A] px-2.5 sm:px-3 py-0.5 rounded-full text-[9px] sm:text-[10px] font-mono font-bold text-accent border border-white/10">
                       INTELLIGENCE
                     </span>
                   </div>
 
-                  <div className="flex items-center justify-center gap-2.5 sm:gap-3 my-auto z-10">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-[#F97316] to-[#EA580C] flex items-center justify-center text-white shadow-lg">
-                      <TrendingUp className="w-5 h-5" />
+                  <div className="flex items-center justify-center gap-2.5 my-auto z-10">
+                    <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-tr from-[#F97316] to-[#EA580C] flex items-center justify-center text-white shadow-lg">
+                      <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5" />
                     </div>
-                    <span className="text-xl sm:text-2xl font-black tracking-wider text-white">SMARTKARROT</span>
+                    <span className="text-lg sm:text-xl font-black tracking-wider text-white">SMARTKARROT</span>
                   </div>
 
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#F97316]/15 rounded-full blur-3xl pointer-events-none" />
@@ -1634,10 +1638,20 @@ export default function App() {
           
           <div className="border-b border-dark-border pb-12 sm:pb-20 mb-8 sm:mb-12">
             
-            {/* Global Mobility Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-dark-subtle border border-dark-border text-[11px] sm:text-xs font-mono text-white mb-5 sm:mb-6">
-              <Globe2 className="w-3.5 h-3.5 text-accent shrink-0" />
-              <span>Available for US (NYC / SF / Boston), UK (London) & Remote</span>
+            {/* Executive Mobility & Turnkey Readiness Strip */}
+            <div className="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-6">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-dark-subtle border border-dark-border text-[11px] sm:text-xs font-mono text-white">
+                <Globe2 className="w-3.5 h-3.5 text-accent" />
+                Live US (EST/PST) & UK/Ireland (GMT) Overlap
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-dark-subtle border border-dark-border text-[11px] sm:text-xs font-mono text-white">
+                <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+                Turnkey Remote Onboarding (Deel / Remote.com / EOR)
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-dark-subtle border border-dark-border text-[11px] sm:text-xs font-mono text-white">
+                <ArrowUpRight className="w-3.5 h-3.5 text-accent" />
+                Open to UK, Ireland (CSEP) & US Relocation
+              </span>
             </div>
 
             <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest uppercase text-accent block mb-3 sm:mb-4">
@@ -1684,7 +1698,7 @@ export default function App() {
 
           {/* Bottom Colophon (3-Column Metadata Row) */}
           <div className="flex flex-col sm:flex-row justify-between items-center text-[11px] sm:text-xs font-mono text-dark-soft gap-3 sm:gap-4 text-center sm:text-left">
-            <div>GLOBAL OPERATING FOOTPRINT: US • UK • INDIA (REMOTE-CAPABLE)</div>
+            <div>GLOBAL OPERATING FOOTPRINT: US • UK • IRELAND • INDIA (REMOTE-CAPABLE)</div>
             <div>DESIGNED WITH HIGH CONTRAST & BENTO ENERGY</div>
             <div>© 2026 YUG JAIN • ALL RIGHTS RESERVED</div>
           </div>

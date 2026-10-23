@@ -343,8 +343,8 @@ export function BookIntroModal({ isOpen, onClose }) {
 
   const regionCorridors = {
     us: {
-      label: 'US Corridor (NYC / SF / Boston)',
-      overlap: '8:00 AM – 1:00 PM EST (Daily Live Overlap)',
+      label: 'US Corridor (NYC / SF / Boston / Austin / Remote)',
+      overlap: '8:00 AM – 1:00 PM EST (Daily Live Overlap) + Evening SteerCos',
       slots: [
         '8:30 AM – 10:00 AM EST (Early NYC / East Coast)',
         '9:30 AM – 11:30 AM EST (NYC Morning / SF Early)',
@@ -352,12 +352,12 @@ export function BookIntroModal({ isOpen, onClose }) {
       ]
     },
     uk: {
-      label: 'UK & Europe Corridor (London / Dublin)',
-      overlap: '8:30 AM – 4:30 PM GMT/BST (Full Day Overlap)',
+      label: 'UK & Ireland Corridor (London / Dublin / EMEA Remote)',
+      overlap: '8:30 AM – 5:00 PM GMT/BST (100% Full-Day Overlap)',
       slots: [
-        '9:00 AM – 11:00 AM GMT (London Morning)',
-        '1:00 PM – 3:00 PM GMT (London Afternoon)',
-        '3:00 PM – 5:00 PM GMT (London Late Afternoon)'
+        '9:00 AM – 11:00 AM GMT (London & Dublin Morning)',
+        '1:00 PM – 3:00 PM GMT (London & Dublin Afternoon)',
+        '3:00 PM – 5:00 PM GMT (EMEA Closing Window)'
       ]
     },
     global: {
@@ -372,9 +372,10 @@ export function BookIntroModal({ isOpen, onClose }) {
   };
 
   const topics = [
-    'Enterprise Client Partner / CS Leadership Role',
-    'Fractional Advisory / Post-Sales Architecture',
-    'Co-Founder / Applied AI Collaboration'
+    'Enterprise Client Partner / Principal CSM Mandate',
+    'Technical Account Manager (TAM) / Solutions Lead',
+    'Head / Director of Customer Success (Series A–C)',
+    'Strategic Advisory / Post-Sales Architecture'
   ];
 
   const handleRegionChange = (key) => {
@@ -437,7 +438,7 @@ export function BookIntroModal({ isOpen, onClose }) {
                   Schedule an Executive Intro
                 </h3>
                 <p className="text-[11px] sm:text-xs text-[#A1A1AA] mt-0.5 sm:mt-1">
-                  Synchronized across US (NYC/SF), UK (London), and Global enterprise hours.
+                  Synchronized across US (NYC/SF), UK (London), Ireland (Dublin), and Global enterprise hours.
                 </p>
               </div>
               <button
