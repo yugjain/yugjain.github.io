@@ -282,7 +282,7 @@ export const executiveEndorsements = [
     quote:
       'Yug operates with a rare dual lens: he can hold the room with North American enterprise VPs during high-stakes SOW and Steering Committee negotiations, and immediately pivot to diagnosing Salesforce and MuleSoft delivery dependencies with engineering leads.',
     author: 'Enterprise Delivery & Practice Leadership',
-    role: 'NTT DATA Americas Portfolio ($1M+ ARR Book)',
+    role: 'NTT DATA North America Portfolio ($1M+ ARR Book)',
     metricPill: '+30% Portfolio ARR Expansion'
   },
   {

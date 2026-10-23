@@ -246,21 +246,21 @@ export default function App() {
   const timelineData = [
     {
       num: '01',
-      company: 'NTT DATA',
+      company: 'NTT DATA North America',
       role: 'Client Partner & Customer Success Manager',
       period: '2022 — Present',
-      highlightBadge: '$1M ARR Portfolio • US & Global',
+      highlightBadge: '$1M ARR Portfolio • US Accounts',
       shortDesc: 'Dual mandate across delivery governance and commercial growth for a $1M ARR Salesforce & MuleSoft enterprise portfolio spanning North American REITs, Fortune 500 Consumer Goods, InsurTech, Wealth Management, and Retail.',
       fullMetrics: [
         { label: 'ARR Expansion', val: '+30%' },
         { label: 'Gross Logo Retention', val: '80%+' },
         { label: 'Portfolio ARR', val: '$1.0M' },
-        { label: 'Primary Corridor', val: 'US Americas' }
+        { label: 'Operating Division', val: 'North America' }
       ],
       details: [
         'Expanded account ARR by 30% through consultative upselling, multi-year Metascale extensions, and adjacent MuleSoft API integration change orders across North American enterprise accounts.',
         'Sustained an 80%+ gross retention baseline across multi-year contracts, steering executive committees with client VPs, CIOs, and Enterprise Architects.',
-        'Closed tight feedback loops between US/UK customer stakeholders and technical delivery squads to mitigate implementation risks early.'
+        'Closed tight feedback loops between US enterprise customer stakeholders and technical delivery squads to mitigate implementation risks early.'
       ]
     },
     {
@@ -666,7 +666,7 @@ export default function App() {
                 30%
               </div>
               <div className="relative z-10 font-bold text-sm sm:text-lg leading-snug">
-                ARR Expansion across NTT DATA’s $1M Salesforce & MuleSoft enterprise portfolio.
+                ARR Expansion across NTT DATA North America’s $1M Salesforce & MuleSoft enterprise portfolio.
               </div>
               <div className="absolute -right-4 -bottom-4 w-28 h-28 sm:w-32 sm:h-32 rounded-full border-[14px] sm:border-[18px] border-black/10 pointer-events-none group-hover:scale-110 transition-transform" />
             </div>
