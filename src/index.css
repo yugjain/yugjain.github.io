@@ -9,6 +9,12 @@
 }
 
 @layer base {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
   body {
     letter-spacing: -0.02em;
     font-variant-numeric: tabular-nums;
